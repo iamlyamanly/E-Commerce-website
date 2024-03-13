@@ -1,0 +1,543 @@
+.products {
+  display: flex;
+  .menu {
+    padding-top: 40px;
+
+    .menu_list_item {
+      list-style: none;
+      color: rgb(0, 0, 0);
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 40px;
+      letter-spacing: 0%;
+    }
+  }
+}
+.flash_sales{
+  display: flex;
+  justify-content: space-between;
+}
+.btns{
+  display: flex;
+  gap:8px;
+}
+.slideBtn{
+  width: 46px;
+  height: 46px;
+  background: rgb(245, 245, 245);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  border-radius:100%;
+}
+.today {
+  margin-top: 140px;
+}
+.today_head {
+  display: flex;
+  gap: 16px;
+}
+.flash_sales {
+  margin-top: 24px;
+}
+.cards_container {
+  display: flex;
+  gap: 30px;
+  
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-top: 31px;
+  .card_case {
+    width: 270px;
+    height: 250px;
+    position: relative;
+    background: rgb(245, 245, 245);
+    .card_case_img {
+
+      padding: 49px;
+      width: 100%;
+      height: 100%;
+      img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .sale_square {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      width: 55px;
+      padding: 6px 0 6px 0;
+      text-align: center;
+      border-radius: 4px;
+      background: rgb(219, 68, 68);
+      .sale_square_text {
+        color: rgb(250, 250, 250);
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+      }
+    }
+  }
+  .card_text {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 16px;
+  }
+  .card_desc_price {
+    display: flex;
+    gap: 12px;
+    .product_price {
+      color: rgb(219, 68, 68);
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0%;
+    }
+    .product_exprice {
+      color: rgb(0, 0, 0);
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0%;
+    }
+  }
+}
+.pagination{
+  width: 100%;
+  .banner_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .pagination_dottes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+    div{
+      display: flex;
+      gap: 12px;
+      .pagination_dot{
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background-color: #000;
+      }
+      .pagination_dot.active{
+        background-color:aquamarine;
+      }
+    }
+  }
+
+}
+.all_products_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 76px;
+  margin-bottom: 61px;
+  a{
+    text-decoration: none;
+  }
+}
+.browse_categories {
+  margin-top: 79px;
+}
+
+.browsebycategories {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 70.25px;
+}
+.category_cards {
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  > img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 22px;
+  }
+
+  .category_cards_name {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.category_cards:hover{
+  background: rgb(219, 68, 68);
+}
+
+.this_month {
+  margin-top: 69.75px;
+}
+.this_month_best {
+  display: flex;
+  justify-content: space-between;
+}
+.our_products{
+  margin-top: 71px;
+  
+}
+
+/*FEATURED SECTION*/
+.featured {
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+.featured_elements {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+.featured_element_right_2picture {
+  display: flex;
+  gap: 30px;
+}
+.featured_element_left {
+  width: 50%;
+  height: 600px;
+  background: #000;
+}
+.featured_element_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.featured_elements_name {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+.featured_elements_desc {
+  color: rgb(250, 250, 250);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+.featured_elements_shopnow {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.featured_element_right_picture {
+  height: 284px;
+  background: #000;
+}
+.featured_element_right_2picture1 {
+  height: 284px;
+  background: #000;
+}
+
+/*Customer Service and others.*/
+.services_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 99px;
+}
+.service_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ellipse_big {
+  width: 80px;
+  height: 80px;
+  background: rgb(47, 46, 48, 30%);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse_small {
+  width: 58px;
+  height: 58px;
+  border-radius: 100%;
+  z-index: 9;
+  position: relative;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service_card_head {
+  margin-top: 24px;
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.service_card_desc {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+}
+/*Footer*/
+.page_footer {
+  width: 100%;
+  height: 440px;
+  background: #000;
+  display: flex;
+  margin-top: 140px;
+  gap: 87px;
+}
+.page_footer_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 80px;
+}
+.page_footer_logo {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+.page_footer_head {
+  color: rgb(250, 250, 250);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.page_footer_item {
+  color: rgb(250, 250, 250);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.page_footer_link {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+/*Sign up*/
+.account {
+  display: flex;
+  margin-top: 59.75px;
+}
+.crAccount_head {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 4%;
+  margin-bottom: 24px;
+}
+.crAccount_p {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.crAccount {
+  width: 50%;
+  margin-top: 125.5px;
+   margin-left: 150px;
+}
+.crAccount_el {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  gap: 40px;
+  margin-top: 48px;
+  margin-bottom: 40px;
+  input {
+    padding: 7px 0;
+    
+    color: rgb(0, 0, 0, 0.4);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: rgb(0, 0, 0, 0.4);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+}
+
+.name {
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.email {
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.password {
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.crAccount_btns {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  gap: 16px;
+  .crAccount_btn {
+    border-radius: 4px;
+    border: none;
+    background: rgb(219, 68, 68);
+    padding: 16px 61px;
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+  .btn_google {
+    padding: 16px 61px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    text-align: center;
+  }
+}
+.already_acc_cont {
+  text-align: center;
+  width: 55%;
+}
+.already_acc {
+  margin-top: 32px;
+  color: rgb(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.logIn {
+  color: rgb(0, 0, 0, 0.7);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+/*LogIn */
+.logInacc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  div {
+    width: 371px;
+    form {
+      width: 100%;
+    }
+  }
+}
+.login_btns {
+  display: flex;
+  justify-content: space-between;
+  > a {
+    margin-top: 8px;
+    text-decoration: none;
+    color: rgb(219, 68, 68);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+  .login {
+    padding: 16px 48px;
+    border-radius: 4px;
+    background: rgb(219, 68, 68); /* Title/16PX Medium */
+    color: rgb(250, 250, 250);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+  }
+}
+/*404 Not Found*/
+.notfound{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 240px;
+ gap:40px;
+color: rgb(0, 0, 0);
+ .notfound_text{
+font-family: Inter;
+font-size: 110px;
+font-weight: 500;
+line-height: 115px;
+letter-spacing: 3%;
+ } 
+ .notfound_desc{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+ }
+
+}
