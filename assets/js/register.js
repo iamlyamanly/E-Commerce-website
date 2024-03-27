@@ -30,7 +30,7 @@ function formValidate() {
       email: form.Email.value,
       password: form.Password.value,
     };
-    console.log(person);
+    //console.log(person);
     SendData(person);
     form.reset();
   } else {
@@ -50,6 +50,6 @@ function SendData(data) {
       window.location.href = "../logIn.html";
     })
     .catch((err) => {
-      console.log(err);
+      //console.log(err);
     });
 }

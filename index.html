@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/star-rating.css" />
     <title>Home</title>
   </head>
   <body>
@@ -14,38 +15,50 @@
         <p class="page_header_sale_desc">
           Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
         </p>
-        <a href="#" class="page_header_sale_link">ShopNow!</a>
+        <a href="summerSale.html" class="page_header_sale_link">ShopNow!</a>
       </div>
       <div class="page_header_head container">
         <p class="page_header_head_logo">Exclusive</p>
 
         <div class="page_header_head_navbar">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="signUp.html">Sign Up</a></li>
           </ul>
         </div>
         <div class="page_header_head_other">
           <form>
-            <div class="page_header_head_search">
-              <input
-                type="text"
-                class="search_input"
-                placeholder="What are you looking for…"
-              />
-              <div class="search_icon">
-                <img src="assets/images/Component 2.png" />
+            <div>
+              <div class="page_header_head_search">
+                <input
+                  type="text"
+                  class="search_input"
+                  placeholder="What are you looking for…"
+                />
+                <div class="search_icon">
+                  <img src="assets/images/search-interface-symbol.png" />
+                </div>
+              </div>
+              <div class="search_list">
+                <ul>
+                  
+                </ul>
               </div>
             </div>
+
             <div class="page_header_head_other_icons">
-              <div class="page_header_head_other_like">
-                <img src="assets/images/heart.png" />
+             
+              <div class="page_header_head_other_like header_icon">
+                <div class="minicircle"><p class="likecircle">1</p></div>
+                <img src="assets/images/heart.png" class="wishlistImg"/>
               </div>
-              <div class="page_header_head_other_cart">
-                <img src="assets/images/cart.png" />
+              <div class="page_header_head_other_cart header_icon">
+                <div class="minicircle"><p class="cartcircle">1</p></div>
+                <img src="assets/images/cart.png" class="cartImg"/>
               </div>
+              
             </div>
           </form>
         </div>
@@ -61,7 +74,7 @@
             <li class="menu_list_item">Electronics</li>
             <li class="menu_list_item">Home & Lifestyle</li>
             <li class="menu_list_item">Medicine</li>
-            <li class="menu_list_item">Sports & OutdoorWoman</li>
+            <li class="menu_list_item">Sports & Outdoor</li>
             <li class="menu_list_item">Baby's & Toys</li>
             <li class="menu_list_item">Groceries & Pets</li>
             <li class="menu_list_item">Health & Beauty</li>
@@ -71,27 +84,28 @@
           <div class="banner_container">
           </div>
           <div class="pagination_dottes">
-            <div>
-
-            </div>
+            <div></div>
           </div>
         </div>
       </section>
-      <section class="today container">
+      <section class="today container" id="sale">
         <div class="today_head">
           <div class="square"></div>
           <p class="text">Today's</p>
         </div>
         <div class="flash_sales">
           <p class="bold_text">Flash Sales</p>
+          <div id="MyClockDisplay"><p id="demo" class="clock"></p></div>
           <div class="btns">
-            <div id="prev-slide" class="slideBtn"><img src="assets/images/Vector (2).png"></div>
-           <div  id="next" class="slideBtn"><img src="assets/images/Vector (3).png"></div>
+            <div id="prev-slide" class="slideBtn">
+              <img src="assets/images/Vector (2).png" />
+            </div>
+            <div id="next" class="slideBtn">
+              <img src="assets/images/Vector (3).png" />
+            </div>
           </div>
-          
         </div>
-        <div class="cards_container">
-        </div>
+        <div class="cards_container"></div>
         <div class="all_products_button">
           <button class="all_products">View All Products</button>
         </div>
@@ -105,11 +119,17 @@
         <div class="flash_sales">
           <p class="bold_text">Browse By Category</p>
           <div class="btns">
-            <div class="slideBtn"><img src="assets/images/Vector (2).png"></div>
-           <div class="slideBtn"><img src="assets/images/Vector (3).png"></div>
+            <div class="slideBtn">
+              <img src="assets/images/Vector (2).png" />
+            </div>
+            <div class="slideBtn">
+              <img src="assets/images/Vector (3).png" />
+            </div>
           </div>
+
         </div>
         <div class="browsebycategories">
+          
         </div>
         <hr />
       </section>
@@ -127,7 +147,7 @@
           </div>
         </div>
         <div class="cards_container" id="bestSelling_cont">
-          <!-- <div class="card">
+           <!-- <div class="card">
             <div class="card_case">
               <div class="sale_square">
                 <p class="sale_square_text">-40%</p>
@@ -142,9 +162,23 @@
                 <p class="product_price">$120</p>
                 <span class="product_exprice"><strike>$199</strike></span>
               </div>
+              
+          <fieldset class="rate">
+            <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
+            <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
+            <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
+            <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
+            <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
+            <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
+            <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
+            <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
+            <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
+            <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
+        
+        </fieldset>
             </div>
-          </div>
-          <div class="card">
+          </div> -->
+          <!-- <div class="card">
             <div class="card_case">
               <div class="sale_square">
                 <p class="sale_square_text">-40%</p>
@@ -205,8 +239,12 @@
         <div class="flash_sales">
           <p class="bold_text">Explore Our Products</p>
           <div class="btns">
-            <div id="prev-slide" class="slideBtn"><img src="assets/images/Vector (2).png"></div>
-           <div  id="next" class="slideBtn"><img src="assets/images/Vector (3).png"></div>
+            <div id="prev-slide" class="slideBtn">
+              <img src="assets/images/Vector (2).png" />
+            </div>
+            <div id="next" class="slideBtn">
+              <img src="assets/images/Vector (3).png" />
+            </div>
           </div>
         </div>
         <div class="cards_container allitems">
@@ -293,7 +331,7 @@
         </div>
         <div class="featured_elements">
           <div class="featured_element_left">
-            <img />
+            <img id="img_featured-1" src="assets/images/g92-2-500x500 1.png" />
             <div class="featured_elements_about">
               <p class="featured_elements_name">PlayStation 5</p>
               <p class="featured_elements_desc">
@@ -304,32 +342,40 @@
           </div>
           <div class="featured_element_right">
             <div class="featured_element_right_picture">
-              <img />
+              <img
+                id="img_featured-2"
+                src="assets/images/g92-2-500x500 1.png"
+              />
               <div class="featured_elements_about">
-                <p class="featured_elements_name">PlayStation 5</p>
+                <p class="featured_elements_name">Woman hat</p>
                 <p class="featured_elements_desc">
-                  Black and White version of the PS5 coming out on sale.
+                  Featured woman collections that give you another vibe.
                 </p>
                 <a href="#" class="featured_elements_shopnow">ShopNow!</a>
               </div>
             </div>
             <div class="featured_element_right_2picture">
               <div class="featured_element_right_2picture1">
-                <img />
+                <img
+                  id="img_featured-3"
+                  src="assets/images/g92-2-500x500 1.png"
+                />
                 <div class="featured_elements_about">
-                  <p class="featured_elements_name">PlayStation 5</p>
-                  <p class="featured_elements_desc">
-                    Black and White version of the PS5 coming out on sale.
+                  <p class="featured_elements_name">Woman bag</p>
+                  <p class="featured_elements_desc">Beautiful bag.
                   </p>
                   <a href="#" class="featured_elements_shopnow">ShopNow!</a>
                 </div>
               </div>
               <div class="featured_element_right_2picture1">
-                <img />
+                <img
+                  id="img_featured-4"
+                  src="assets/images/g92-2-500x500 1.png"
+                />
                 <div class="featured_elements_about">
-                  <p class="featured_elements_name">PlayStation 5</p>
+                  <p class="featured_elements_name">Perfume</p>
                   <p class="featured_elements_desc">
-                    Black and White version of the PS5 coming out on sale.
+                    GUCCI INTENSE OUD EDP
                   </p>
                   <a href="#" class="featured_elements_shopnow">ShopNow!</a>
                 </div>
@@ -372,7 +418,8 @@
         </div>
       </section>
     </main>
-    <footer class="page_footer container">
+    <footer>
+      <div class="page_footer container">
       <div class="page_footer_cont">
         <p class="page_footer_logo">Exclusive</p>
         <p class="page_footer_head">Subscribe</p>
@@ -391,20 +438,48 @@
       </div>
       <div class="page_footer_cont">
         <p class="page_footer_head">Account</p>
-        <a href="#" class="page_footer_link">My Account</a>
-        <a href="#" class="page_footer_link">Login/Register</a>
-        <a href="#" class="page_footer_link">Cart</a>
-        <a href="#" class="page_footer_link">WishList</a>
-        <a href="#" class="page_footer_link">Shop</a>
+        <a href="myAccount.html" class="page_footer_link">My Account</a>
+        <a href="signUp.html" class="page_footer_link">Login/Register</a>
+        <a href="cart.html" class="page_footer_link">Cart</a>
+        <a href="wishlist.html" class="page_footer_link">WishList</a>
+        <a href="index.html" class="page_footer_link">Shop</a>
       </div>
       <div class="page_footer_cont">
         <p class="page_footer_head">Quick Link</p>
         <a href="#" class="page_footer_link">Privacy Policy</a>
         <a href="#" class="page_footer_link">Terms Of Use</a>
         <a href="#" class="page_footer_link">FAQ</a>
-        <a href="#" class="page_footer_link">Contact</a>
+        <a href="contact.html" class="page_footer_link">Contact</a>
       </div>
+      <div class="page_footer_cont">
+        <p class="page_footer_head">Download App</p>
+        <p href="#" class="page_footer_save">Save $3 with App New User Only</p>
+        <div class="downlooad_app">
+          <div><img src="assets/images/Qrcode 1.png"></div>
+          <div class="appandplay">
+            <div class="playStore"><img src="assets/images/GooglePlay.png"/></div>
+            <div class="appStore"><img src="assets/images/AppStore.png"/></div>
+          </div>
+
+        </div>
+        <div class="social">
+          <img src="assets/images/Icon-Facebook.png">
+          <img src="assets/images/Icon-Twitter.png">
+          <img src="assets/images/icon-instagram.png">
+          <img src="assets/images/Icon-Linkedin.png">
+        </div>
+
+      </div>
+    </div>
+    <hr>
+    <div class="copyright">
+      <p>&copy; <span>Copyright Rimel 2022. All right reserved</span></p>
+    </div>
+
     </footer>
+    <script src="assets/js/header.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/categories.js"></script>
+    <script src="assets/js/clock.js"></script>
   </body>
 </html>

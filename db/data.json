@@ -2,107 +2,172 @@
   "users": [
     {
       "id": "b38a",
-      "name": "Ruslan Humbetov",
+      "username": "Ruslan Humbetov",
+      "name": "Ruslan",
+      "surname": "Humbetov",
       "password": "R@sif12345",
-      "email": "ruslanhumbetov1@gmail.com"
+      "email": "ruslanhumbetov1@gmail.com",
+      "address": "Sumgayit,Azerbaijan",
+      "liked": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "addcart": [
+        5,
+        8,
+        9,
+        10
+      ]
     },
     {
       "id": "c220",
-      "name": "Leyla Nesibova",
+      "username": "Leyla Nesibova",
+      "name": "Leyla",
+      "surname": "Nesibova",
       "password": "Leyl@123",
-      "email": "leylanesibova@gmail.com"
+      "email": "leylanesibova@gmail.com",
+      "address": "Baku,Azerbaijan",
+      "liked": [
+        1,
+        2,
+        3,
+        4
+      ]
     },
     {
       "id": "c250",
-      "name": "Nurgul Hesenli",
+      "username": "Nurgul Hesenli",
+      "name": "Nurgul",
+      "surname": "Hesenli",
       "password": "Nurgul123@",
-      "email": "nurgulhesenli@gmail.com"
+      "email": "nurgulhesenli@gmail.com",
+      "address": "Binagadi,Azerbaijan",
+      "liked": [
+        1,
+        2,
+        3,
+        4
+      ]
     },
     {
       "id": "e300",
-      "name": "Nicat Memmedli",
+      "name": "Nicat",
+      "surname": "Memmedli",
+      "username": "Nicat Memmedli",
       "password": "Nic@t123",
-      "email": "nicatmemmedli@gmail.com"
+      "email": "nicatmemmedli@gmail.com",
+      "address": "Lankaran,Azerbaijan"
     },
     {
       "id": "6d35",
       "username": "Gulnar Nabiyeva",
+      "name": "Gulnar",
+      "surname": "Nabiyeva",
       "email": "gulnarnabiyeva@gmail.com",
-      "password": "Guln@r123"
+      "password": "salam123",
+      "address": "Masalli,Azerbaijan",
+      "liked": [
+        1,
+        61,
+        40,
+        69,
+        67,
+        7,
+        31,
+        5,
+        91
+      ],
+      "addcart": [
+        40,
+        5,
+        7,
+        94,
+        2
+      ]
     },
     {
       "id": "b326",
       "username": "Leman Nagiyeva",
+      "name": "Leman",
+      "surname": "Nagiyeva",
       "email": "lemannagiyeva@gmail.com",
       "password": "Lem@an123"
     }
   ],
-
-  "subcategory":[
-   {
-    "name":"Phones",
-    "icon":"assets/images/smartphone.png"
-   },
-   {
-    "name":"Computers",
-    "icon":"assets/images/monitor.png"
-   },
-   {
-    "name":"Watch",
-    "icon":"assets/images/watch.png"
-   },
-   {
-    "name":"T-shirt",
-    "icon":"assets/images/t-shirt.png"
-   },
-   {
-    "name":"Beauty",
-    "icon":"assets/images/skin-care.png"
-   },
-   {
-    "name":"Gaming",
-    "icon":"assets/images/gaming-chair.png"
-   },
-   {
-    "name":"Medicine",
-    "icon":"assets/images/first-aid-kit.png"
-   }
+  "subcategory": [
+    {
+      "name": "Phones",
+      "icon": "assets/images/smartphone.png",
+      "id": "0757"
+    },
+    {
+      "name": "Computers",
+      "icon": "assets/images/monitor.png",
+      "id": "9ae1"
+    },
+    {
+      "name": "Watch",
+      "icon": "assets/images/watch.png",
+      "id": "a12b"
+    },
+    {
+      "name": "T-shirt",
+      "icon": "assets/images/t-shirt.png",
+      "id": "cd8a"
+    },
+    {
+      "name": "Beauty",
+      "icon": "assets/images/skin-care.png",
+      "id": "f49b"
+    },
+    {
+      "name": "Gaming",
+      "icon": "assets/images/gaming-chair.png",
+      "id": "be04"
+    },
+    {
+      "name": "Medicine",
+      "icon": "assets/images/first-aid-kit.png",
+      "id": "5b86"
+    }
   ],
-  "banner":[
+  "banner": [
     {
-      "id": 1,
-      "image": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+      "id": "1",
+      "image": "/assets/images/image.png"
     },
     {
-      "id": 2,
-      "image": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+      "id": "2",
+      "image": "/assets/images/image.png"
     },
     {
-      "id": 3,
-      "image": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+      "id": "3",
+      "image": "/assets/images/image.png"
     },
     {
-      "id": 4,
-      "image": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+      "id": "4",
+      "image": "/assets/images/image.png"
     },
     {
-      "id": 5,
-      "image": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+      "id": "5",
+      "image": "/assets/images/image.png"
     }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
       "price": 549,
       "discountPercentage": 12.96,
       "rating": 4.69,
-      "sale":true,
+      "sale": true,
       "stock": 94,
       "brand": "Apple",
       "category": "Electronics",
-      "subcategory":"phone",
+      "subcategory": "phone",
       "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/1/1.jpg",
@@ -113,14 +178,14 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
       "discountPercentage": 17.94,
       "rating": 4.44,
       "stock": 34,
-      "sale":true,
+      "sale": true,
       "brand": "Apple",
       "category": "Electronics",
       "subcategory": "phone",
@@ -133,14 +198,14 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Samsung Universe 9",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
       "price": 1249,
       "discountPercentage": 15.46,
       "rating": 4.09,
       "stock": 36,
-      "sale":true,
+      "sale": true,
       "brand": "Samsung",
       "category": "Electronics",
       "subcategory": "phone",
@@ -150,13 +215,13 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
       "price": 280,
       "discountPercentage": 17.91,
       "rating": 4.3,
-      "sale":true,
+      "sale": true,
       "stock": 123,
       "brand": "OPPO",
       "subcategory": "phone",
@@ -171,14 +236,14 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Huawei P30",
       "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
       "price": 499,
       "discountPercentage": 10.58,
       "rating": 4.09,
       "stock": 32,
-      "sale":true,
+      "sale": true,
       "brand": "Huawei",
       "subcategory": "phone",
       "category": "Electronics",
@@ -190,13 +255,13 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "MacBook Pro",
       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
       "price": 1749,
       "discountPercentage": 11.02,
       "rating": 4.57,
-      "sale":true,
+      "sale": true,
       "stock": 83,
       "brand": "Apple",
       "category": "Electronics",
@@ -210,13 +275,13 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Samsung Galaxy Book",
       "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
       "price": 1499,
       "discountPercentage": 4.15,
       "rating": 4.25,
-      "sale":true,
+      "sale": true,
       "stock": 50,
       "brand": "Samsung",
       "subcategory": "phone",
@@ -230,13 +295,13 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Microsoft Surface Laptop 4",
       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
       "price": 1499,
       "discountPercentage": 10.23,
       "rating": 4.43,
-      "sale":true,
+      "sale": true,
       "stock": 68,
       "brand": "Microsoft Surface",
       "subcategory": "computers",
@@ -251,12 +316,12 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Infinix INBOOK",
       "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
       "price": 1099,
       "discountPercentage": 11.83,
-      "sale":true,
+      "sale": true,
       "rating": 4.54,
       "stock": 96,
       "brand": "Infinix",
@@ -272,12 +337,12 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "HP Pavilion 15-DK1056WM",
       "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
       "price": 1099,
       "discountPercentage": 6.18,
-      "sale":true,
+      "sale": true,
       "rating": 4.43,
       "stock": 89,
       "brand": "HP Pavilion",
@@ -292,17 +357,17 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "perfume Oil",
       "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
       "price": 13,
       "discountPercentage": 8.4,
-      "sale":true,
+      "sale": true,
       "rating": 4.26,
       "stock": 65,
       "brand": "Impression of Acqua Di Gio",
       "subcategory": "beauty",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/11/1.jpg",
@@ -312,17 +377,17 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Brown Perfume",
       "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
       "price": 40,
       "discountPercentage": 15.66,
-      "sale":true,
+      "sale": true,
       "rating": 4,
       "stock": 52,
       "brand": "Royal_Mirage",
       "subcategory": "beauty",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/12/1.jpg",
@@ -333,17 +398,17 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Fog Scent Xpressio Perfume",
       "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
       "price": 13,
       "discountPercentage": 8.14,
-      "sale":true,
+      "sale": true,
       "rating": 4.59,
       "stock": 61,
       "brand": "Fog Scent Xpressio",
       "subcategory": "beauty",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
       "images": [
         "https://cdn.dummyjson.com/product-images/13/1.jpg",
@@ -354,17 +419,17 @@
       ]
     },
     {
-      "id": 14,
-      "title": "Non-Alcoholic Concentrated Perfume Oil",
+      "id": "14",
+      "title": "Perfume Oil",
       "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
       "price": 120,
       "discountPercentage": 15.6,
-      "sale":true,
+      "sale": true,
       "rating": 4.21,
       "stock": 114,
       "brand": "Al Munakh",
       "subcategory": "beauty",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/14/1.jpg",
@@ -374,17 +439,17 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Eau De Perfume Spray",
       "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
       "price": 30,
       "discountPercentage": 10.99,
-      "sale":true,
+      "sale": true,
       "rating": 4.7,
       "stock": 105,
       "brand": "Lord - Al-Rehab",
       "subcategory": "beauty",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/15/1.jpg",
@@ -395,17 +460,17 @@
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Hyaluronic Acid Serum",
       "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
       "price": 19,
       "discountPercentage": 13.31,
-      "sale":true,
+      "sale": true,
       "rating": 4.83,
       "stock": 110,
       "subcategory": "beauty",
       "brand": "L'Oreal Paris",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/16/1.png",
@@ -416,17 +481,17 @@
       ]
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Tree Oil 30ml",
       "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
       "price": 12,
       "discountPercentage": 4.09,
-      "sale":true,
+      "sale": true,
       "rating": 4.52,
       "stock": 78,
       "brand": "Hemani Tea",
       "subcategory": "beauty",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/17/1.jpg",
@@ -436,17 +501,17 @@
       ]
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Oil Free Moisturizer 100ml",
       "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
       "price": 40,
       "discountPercentage": 13.1,
-      "sale":true,
+      "sale": true,
       "rating": 4.56,
       "stock": 88,
       "brand": "Dermive",
       "subcategory": "beauty",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/18/1.jpg",
@@ -457,16 +522,16 @@
       ]
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Skin Beauty Serum.",
       "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
       "price": 46,
       "discountPercentage": 10.68,
-      "sale":true,
+      "sale": true,
       "rating": 4.42,
       "stock": 54,
       "brand": "ROREC White Rice",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "subcategory": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
       "images": [
@@ -477,16 +542,16 @@
       ]
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Freckle Treatment Cream- 15gm",
       "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
       "price": 70,
       "discountPercentage": 16.99,
-      "sale":true,
+      "sale": true,
       "rating": 4.06,
       "stock": 140,
       "brand": "Fair & Clear",
-      "category": "Health&Beauty",
+      "category": "Health & Beauty",
       "subcategory": "beauty",
       "thumbnail": "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
       "images": [
@@ -498,16 +563,16 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "- Daal Masoor 500 grams",
       "description": "Fine quality Branded Product Keep in a cool and dry place",
       "price": 20,
       "discountPercentage": 4.81,
-      "sale":true,
+      "sale": true,
       "rating": 4.44,
       "stock": 133,
       "brand": "Saaf & Khaas",
-      "category": "Groceries&Pets",
+      "category": "Groceries & Pets",
       "subcategory": "food",
       "thumbnail": "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
       "images": [
@@ -517,16 +582,16 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Elbow Macaroni - 400 gm",
       "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
       "price": 14,
       "discountPercentage": 15.58,
-      "sale":true,
+      "sale": true,
       "rating": 4.57,
       "stock": 146,
       "brand": "Bake Parlor Big",
-      "category": "Groceries&Pets",
+      "category": "Groceries & Pets",
       "subcategory": "food",
       "thumbnail": "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg",
       "images": [
@@ -536,17 +601,17 @@
       ]
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Orange Essence Food Flavou",
       "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
       "price": 14,
       "discountPercentage": 8.04,
-      "sale":true,
+      "sale": true,
       "rating": 4.85,
       "stock": 26,
       "subcategory": "food",
       "brand": "Baking Food Items",
-      "category": "Groceries&Pets",
+      "category": "Groceries & Pets",
       "thumbnail": "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/23/1.jpg",
@@ -557,17 +622,17 @@
       ]
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "cereals muesli fruit nuts",
       "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
       "price": 46,
       "discountPercentage": 16.8,
-      "sale":true,
+      "sale": true,
       "rating": 4.94,
       "stock": 113,
       "brand": "fauji",
       "subcategory": "food",
-      "category": "Groceries&Pets",
+      "category": "Groceries & Pets",
       "thumbnail": "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/24/1.jpg",
@@ -578,16 +643,16 @@
       ]
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Gulab Powder 50 Gram",
       "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
       "price": 70,
       "discountPercentage": 13.58,
-      "sale":true,
+      "sale": true,
       "rating": 4.87,
       "stock": 47,
       "brand": "Dry Rose",
-      "category": "Groceries&Pets",
+      "category": "Groceries & Pets",
       "subcategory": "food",
       "thumbnail": "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
       "images": [
@@ -599,16 +664,16 @@
       ]
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Plant Hanger For Home",
       "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
       "price": 41,
       "discountPercentage": 17.86,
-      "sale":true,
+      "sale": true,
       "rating": 4.08,
       "stock": 131,
       "brand": "Boho Decor",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "subcategory": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
       "images": [
@@ -621,16 +686,16 @@
       ]
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Flying Wooden Bird",
       "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
       "price": 51,
       "discountPercentage": 15.58,
       "rating": 4.41,
-      "sale":true,
+      "sale": true,
       "stock": 17,
       "brand": "Flying Wooden",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "subcategory": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
       "images": [
@@ -642,17 +707,17 @@
       ]
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "3D Embellishment Art Lamp",
       "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
       "price": 20,
       "discountPercentage": 16.49,
-      "sale":true,
+      "sale": true,
       "rating": 4.82,
       "stock": 54,
       "brand": "LED Lights",
       "subcategory": "furniture",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/28/1.jpg",
@@ -663,16 +728,16 @@
       ]
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Handcraft Chinese style",
       "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
       "price": 60,
       "discountPercentage": 15.34,
       "rating": 4.44,
-      "sale":true,
+      "sale": true,
       "stock": 7,
       "brand": "luxury palace",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "subcategory": "furniture",
       "thumbnail": "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
       "images": [
@@ -684,17 +749,17 @@
       ]
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Key Holder",
       "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
       "price": 30,
       "discountPercentage": 2.92,
-      "sale":true,
+      "sale": true,
       "rating": 4.92,
       "stock": 54,
       "subcategory": "furniture",
       "brand": "Golden",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "thumbnail": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/30/1.jpg",
@@ -704,130 +769,130 @@
       ]
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Gaming Chair",
       "description": "Gaming Chair Lorgar Base 311 Black Red / LRG-CHR311BR",
       "thumbnail": "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-gc-0053.png",
       "category": "Electronics",
       "subcategory": "furniture",
-      "price":140,
+      "price": 140,
       "rating": 3.45,
       "images": [
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-gc-0053-4.png",
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-gc-0053-4.png"
       ],
-      "bestSeller":true
-
+      "bestSeller": true
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "Book",
       "thumbnail": "https://api.lorem.space/image/book?w=150&h=220",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "subcategory": "book",
       "description": "An apple mobile which is nothing like apple",
       "price": 13
     },
     {
-      "id":40,
-      "description":"Redmi Smart Band 2 Black / BHR6921AP",
-      "title":"Redmi Smart Band",
-      "category":"Electronics",
-      "subcategory":"watch",
-      "price":46,
-      "thumbnail":"https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/f/i/file_1069.png",
-      "images":[
+      "id": "40",
+      "description": "Redmi Smart Band 2 Black / BHR6921AP",
+      "title": "Redmi Smart Band",
+      "category": "Electronics",
+      "subcategory": "watch",
+      "price": 46,
+      "rating": 2.5,
+      "thumbnail": "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/f/i/file_1069.png",
+      "images": [
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/f/i/file_1069.png"
       ],
-      "bestSeller":true
-
+      "bestSeller": true
     },
     {
-      "id":41,
-      "description":"An apple mobile which is nothing like apple",
-      "title":"Saat Ingersoll",
-      "thumbnail":"https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
-      "price":544,
-      "category":"Electronics",
-      "subcategory":"watch",
-      "images":[
-        "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png"
-      ]
-    },
-    {
-      "id":42,
-      "description":"An apple mobile which is nothing like apple",
-      "title":"Saat Ingersoll",
-      "thumbnail":"https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
-      "price":544,
-      "category":"Electronics",
-      "subcategory":"watch",
-      "images":[
+      "id": "41",
+      "description": "An apple mobile which is nothing like apple",
+      "title": "Saat Ingersoll",
+      "thumbnail": "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
+      "price": 544,
+      "category": "Electronics",
+      "subcategory": "watch",
+      "images": [
         "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png"
       ]
     },
     {
-      "id":43,
-      "description":"An apple mobile which is nothing like apple",
-      "title":"Saat Ingersoll",
-      "thumbnail":"https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
-      "price":544,
-      "category":"Electronics",
-      "subcategory":"watch",
-      "images":[
+      "id": "42",
+      "description": "An apple mobile which is nothing like apple",
+      "title": "Saat Ingersoll",
+      "thumbnail": "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
+      "price": 544,
+      "category": "Electronics",
+      "subcategory": "watch",
+      "images": [
         "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png"
       ]
-    }
-    , {
-      "id":44,
-      "description":"An apple mobile which is nothing like apple",
-      "title":"Saat Ingersoll",
-      "thumbnail":"https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
-      "price":544,
-      "category":"Electronics",
-      "subcategory":"watch",
-      "images":[
+    },
+    {
+      "id": "43",
+      "description": "An apple mobile which is nothing like apple",
+      "title": "Saat Ingersoll",
+      "thumbnail": "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
+      "price": 544,
+      "category": "Electronics",
+      "subcategory": "watch",
+      "images": [
         "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png"
       ]
-    },{
-      "id": 44,
+    },
+    {
+      "id": "44",
+      "description": "An apple mobile which is nothing like apple",
+      "title": "Saat Ingersoll",
+      "thumbnail": "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png",
+      "price": 544,
+      "category": "Electronics",
+      "subcategory": "watch",
+      "images": [
+        "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/n/e/new-project-2023-08-03t105932.420_png.png"
+      ]
+    },
+    {
+      "id": "44",
       "title": "Book",
       "thumbnail": "https://api.lorem.space/image/book?w=150&h=220",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "subcategory": "book",
       "description": "An apple mobile which is nothing like apple",
       "price": 13
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "Book",
       "thumbnail": "https://api.lorem.space/image/book?w=150&h=220",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "subcategory": "book",
       "description": "An apple mobile which is nothing like apple",
       "price": 13
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Book",
       "thumbnail": "https://api.lorem.space/image/book?w=150&h=220",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "subcategory": "book",
       "description": "An apple mobile which is nothing like apple",
       "price": 13
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "3D Embellishment Art Lamp",
       "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
       "price": 20,
       "discountPercentage": 16.49,
-      "sale":true,
+      "sale": true,
       "rating": 4.82,
       "stock": 54,
       "brand": "LED Lights",
       "subcategory": "furniture",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/28/1.jpg",
@@ -838,17 +903,17 @@
       ]
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "3D Embellishment Art Lamp",
       "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
       "price": 20,
       "discountPercentage": 16.49,
-      "sale":true,
+      "sale": true,
       "rating": 4.82,
       "stock": 54,
       "brand": "LED Lights",
       "subcategory": "furniture",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/28/1.jpg",
@@ -859,17 +924,17 @@
       ]
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "3D Embellishment Art Lamp",
       "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
       "price": 20,
       "discountPercentage": 16.49,
-      "sale":true,
+      "sale": true,
       "rating": 4.82,
       "stock": 54,
       "brand": "LED Lights",
       "subcategory": "furniture",
-      "category": "Home&Lifestyle",
+      "category": "Home & Lifestyle",
       "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/28/1.jpg",
@@ -880,12 +945,12 @@
       ]
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
       "discountPercentage": 17.94,
-      "sale":true,
+      "sale": true,
       "rating": 4.44,
       "stock": 34,
       "brand": "Apple",
@@ -900,12 +965,12 @@
       ]
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
       "discountPercentage": 17.94,
-      "sale":true,
+      "sale": true,
       "rating": 4.44,
       "stock": 34,
       "brand": "Apple",
@@ -920,12 +985,12 @@
       ]
     },
     {
-      "id": 51,
+      "id": "51",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
       "discountPercentage": 17.94,
-      "sale":true,
+      "sale": true,
       "rating": 4.44,
       "stock": 34,
       "brand": "Apple",
@@ -940,12 +1005,12 @@
       ]
     },
     {
-      "id": 52,
+      "id": "52",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
       "discountPercentage": 17.94,
-      "sale":true,
+      "sale": true,
       "rating": 4.44,
       "stock": 34,
       "brand": "Apple",
@@ -960,12 +1025,12 @@
       ]
     },
     {
-      "id": 53,
+      "id": "53",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 899,
       "discountPercentage": 17.94,
-      "sale":true,
+      "sale": true,
       "rating": 4.44,
       "stock": 34,
       "category": "Medicine",
@@ -977,12 +1042,12 @@
       ]
     },
     {
-      "id": 54,
+      "id": "54",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 899,
       "discountPercentage": 17.94,
-      "sale":true,
+      "sale": true,
       "rating": 4.44,
       "stock": 34,
       "category": "Medicine",
@@ -994,10 +1059,10 @@
       ]
     },
     {
-      "id": 55,
+      "id": "55",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
-      "sale":true,
+      "sale": true,
       "price": 899,
       "rating": 4.44,
       "stock": 34,
@@ -1010,10 +1075,10 @@
       ]
     },
     {
-      "id": 56,
+      "id": "56",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
-      "sale":true,
+      "sale": true,
       "price": 899,
       "rating": 4.44,
       "stock": 34,
@@ -1026,7 +1091,7 @@
       ]
     },
     {
-      "id": 57,
+      "id": "57",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 899,
@@ -1041,7 +1106,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": "58",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 899,
@@ -1054,8 +1119,9 @@
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/k/-/k-h_-_2023-04-11t134846.232.png",
         "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/k/-/k-h_-_2023-04-11t134846.232.png"
       ]
-    },{
-      "id": 59,
+    },
+    {
+      "id": "59",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 89,
@@ -1070,7 +1136,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": "60",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 89,
@@ -1085,14 +1151,14 @@
       ]
     },
     {
-      "id": 61,
+      "id": "61",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
       "category": "Medicine",
-      "bestSeller":true,
+      "bestSeller": true,
       "subcategory": "Medicine",
       "thumbnail": "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/i/m/images-3_1_1.jpg",
       "images": [
@@ -1101,7 +1167,7 @@
       ]
     },
     {
-      "id": 62,
+      "id": "62",
       "title": "Termometr",
       "description": "Termometr Nimo ECT-1",
       "price": 89,
@@ -1116,13 +1182,13 @@
       ]
     },
     {
-      "id": 63,
+      "id": "63",
       "title": "Krosovka",
       "description": "Kişilər üçün krosovkalar Adidas HQ8809, ağ, torşəkilli, ölçü 44",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
+      "category": "Men's Fashion",
       "subcategory": "shoes",
       "thumbnail": "https://strgimgr.umico.az/sized/840/503506-ebcedb164ea2f5371dff551136da2085.jpg",
       "images": [
@@ -1131,13 +1197,13 @@
       ]
     },
     {
-      "id": 64,
+      "id": "64",
       "title": "Krosovka",
       "description": "Kişilər üçün krosovkalar Adidas HQ8809, ağ, torşəkilli, ölçü 44",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
+      "category": "Men's Fashion",
       "subcategory": "shoes",
       "thumbnail": "https://strgimgr.umico.az/sized/840/503506-ebcedb164ea2f5371dff551136da2085.jpg",
       "images": [
@@ -1146,13 +1212,13 @@
       ]
     },
     {
-      "id": 65,
+      "id": "65",
       "title": "Krosovka",
       "description": "Kişilər üçün krosovkalar Adidas HQ8809, ağ, torşəkilli, ölçü 44",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
+      "category": "Men's Fashion",
       "subcategory": "shoes",
       "thumbnail": "https://strgimgr.umico.az/sized/840/503506-ebcedb164ea2f5371dff551136da2085.jpg",
       "images": [
@@ -1161,13 +1227,13 @@
       ]
     },
     {
-      "id": 66,
+      "id": "66",
       "title": "Krosovka",
       "description": "Kişilər üçün krosovkalar Adidas HQ8809, ağ, torşəkilli, ölçü 44",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
+      "category": "Men;s Fashion",
       "subcategory": "shoes",
       "thumbnail": "https://strgimgr.umico.az/sized/840/503506-ebcedb164ea2f5371dff551136da2085.jpg",
       "images": [
@@ -1176,14 +1242,14 @@
       ]
     },
     {
-      "id": 67,
+      "id": "67",
       "title": "Krosovka",
       "description": "Kişilər üçün krosovkalar Adidas HQ8809, ağ, torşəkilli, ölçü 44",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
-      "bestSeller":true,
+      "category": "Men's Fashion",
+      "bestSeller": true,
       "subcategory": "shoes",
       "thumbnail": "https://strgimgr.umico.az/sized/840/503506-ebcedb164ea2f5371dff551136da2085.jpg",
       "images": [
@@ -1192,13 +1258,13 @@
       ]
     },
     {
-      "id": 68,
+      "id": "68",
       "title": "CK Tshirt",
       "description": "Calvin Klein Tshirt",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
+      "category": "Men's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
       "images": [
@@ -1207,45 +1273,29 @@
       ]
     },
     {
-      "id": 69,
+      "id": "69",
       "title": "CK Tshirt",
       "description": "Calvin Klein Tshirt",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
+      "category": "Men's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
       "images": [
         "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
         "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg"
       ],
-      "bestSeller":true
+      "bestSeller": true
     },
     {
-      "id": 70,
+      "id": "70",
       "title": "CK Tshirt",
       "description": "Calvin Klein Tshirt",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
-      "subcategory": "tshirt",
-      "thumbnail": "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
-      "images": [
-        "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
-        "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg"
-      ]
-
-    },
-    {
-      "id": 72,
-      "title": "CK Tshirt",
-      "description": "Calvin Klein Tshirt",
-      "price": 89,
-      "rating": 4.44,
-      "stock": 34,
-      "category": "MensFashion",
+      "category": "Men's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
       "images": [
@@ -1254,13 +1304,13 @@
       ]
     },
     {
-      "id": 73,
+      "id": "72",
       "title": "CK Tshirt",
       "description": "Calvin Klein Tshirt",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "MensFashion",
+      "category": "Men's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
       "images": [
@@ -1269,13 +1319,28 @@
       ]
     },
     {
-      "id": 74,
+      "id": "73",
+      "title": "CK Tshirt",
+      "description": "Calvin Klein Tshirt",
+      "price": 89,
+      "rating": 4.44,
+      "stock": 34,
+      "category": "Men's Fashion",
+      "subcategory": "tshirt",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg",
+        "https://strgimgr.umico.az/sized/840/436845-9408c19034657971a198773db07e3145.jpg"
+      ]
+    },
+    {
+      "id": "74",
       "title": "Amara Reya Poluver",
       "description": "Amara Reya 3A18741, bej, ölçü S",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "WomensFashion",
+      "category": "Woman's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/417519-3f19e445a3c85f7bfaf1a01a5a98eaea.jpg",
       "images": [
@@ -1284,13 +1349,13 @@
       ]
     },
     {
-      "id": 75,
+      "id": "75",
       "title": "Amara Reya Poluver",
       "description": "Amara Reya 3A18741, bej, ölçü S",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "WomensFashion",
+      "category": "Woman's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/417519-3f19e445a3c85f7bfaf1a01a5a98eaea.jpg",
       "images": [
@@ -1299,13 +1364,13 @@
       ]
     },
     {
-      "id": 76,
+      "id": "76",
       "title": "Amara Reya Poluver",
       "description": "Amara Reya 3A18741, bej, ölçü S",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "WomensFashion",
+      "category": "Woman's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/417519-3f19e445a3c85f7bfaf1a01a5a98eaea.jpg",
       "images": [
@@ -1314,13 +1379,13 @@
       ]
     },
     {
-      "id": 77,
+      "id": "77",
       "title": "Amara Reya Poluver",
       "description": "Amara Reya 3A18741, bej, ölçü S",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "WomensFashion",
+      "category": "Woman's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/417519-3f19e445a3c85f7bfaf1a01a5a98eaea.jpg",
       "images": [
@@ -1329,20 +1394,257 @@
       ]
     },
     {
-      "id": 78,
+      "id": "78",
       "title": "Amara Reya Poluver",
       "description": "Amara Reya 3A18741, bej, ölçü S",
       "price": 89,
       "rating": 4.44,
       "stock": 34,
-      "category": "WomensFashion",
+      "category": "Woman's Fashion",
       "subcategory": "tshirt",
       "thumbnail": "https://strgimgr.umico.az/sized/840/417519-3f19e445a3c85f7bfaf1a01a5a98eaea.jpg",
       "images": [
         "https://strgimgr.umico.az/sized/840/417519-3f19e445a3c85f7bfaf1a01a5a98eaea.jpg",
         "https://strgimgr.umico.az/sized/840/417519-3f19e445a3c85f7bfaf1a01a5a98eaea.jpg"
+      ]
+    },
+    {
+      "id": "79",
+      "title": "Play Station VR2",
+      "description": "Play Station VR2 virtual eyes",
+      "price": 1552,
+      "rating": 4.44,
+      "stock": 34,
+      "category": "Electronics",
+      "feature": true,
+      "subcategory": "Gaming",
+      "thumbnail": "https://chronicle.durhamcollege.ca/wp-content/uploads/2021/01/ps5-photo.png",
+      "images": [
+        "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/v/0/v0.png",
+        "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/v/0/v0.png"
+      ]
+    },
+    {
+      "id": "80",
+      "title": "Hat",
+      "description": "Amazon wireless speakers",
+      "price": 150,
+      "rating": 4.44,
+      "stock": 34,
+      "feature": true,
+      "category": "Woman's Fashion",
+      "subcategory": "cap",
+      "thumbnail": "assets/images/woman.png",
+      "images": [
+        "assets/images/woman.png",
+        "assets/images/woman.png"
+      ]
+    },
+    {
+      "id": "81",
+      "title": "Beautiful Bag",
+      "description": "Red and white woman bag",
+      "price": 123,
+      "rating": 4.44,
+      "stock": 34,
+      "feature": true,
+      "category": "Woman's Fashion",
+      "subcategory": "Bag",
+      "thumbnail": "https://umico.az/_ipx/_/https://strgimgr.umico.az/sized/840/708864-0e5858a1aa62c9d400bcd4cfd73b0314.jpg",
+      "images": [
+        "https://umico.az/_ipx/_/https://strgimgr.umico.az/sized/840/708864-0e5858a1aa62c9d400bcd4cfd73b0314.jpg",
+        "https://umico.az/_ipx/_/https://strgimgr.umico.az/sized/840/708864-0e5858a1aa62c9d400bcd4cfd73b0314.jpg"
+      ]
+    },
+    {
+      "id": "82",
+      "title": "Eau De Perfume Spray",
+      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+      "price": 30,
+      "discountPercentage": 10.99,
+      "sale": true,
+      "rating": 4.7,
+      "stock": 105,
+      "feature": true,
+      "brand": "Lord - Al-Rehab",
+      "subcategory": "beauty",
+      "category": "Health&Beauty",
+      "thumbnail": "https://www.freepnglogos.com/uploads/perfume-png/perfume-mon-guerlain-guerlain-7.png",
+      "images": [
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Fparfum-png&psig=AOvVaw1JpEhPxkeB7abvxQLgspuT&ust=1710623190987000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjEs5CW94QDFQAAAAAdAAAAABAE",
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Fparfum-png&psig=AOvVaw1JpEhPxkeB7abvxQLgspuT&ust=1710623190987000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjEs5CW94QDFQAAAAAdAAAAABAE",
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Fparfum-png&psig=AOvVaw1JpEhPxkeB7abvxQLgspuT&ust=1710623190987000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjEs5CW94QDFQAAAAAdAAAAABAE",
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Fparfum-png&psig=AOvVaw1JpEhPxkeB7abvxQLgspuT&ust=1710623190987000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjEs5CW94QDFQAAAAAdAAAAABAE",
+        "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.freepik.com%2Fphotos-vecteurs-libre%2Fparfum-png&psig=AOvVaw1JpEhPxkeB7abvxQLgspuT&ust=1710623190987000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjEs5CW94QDFQAAAAAdAAAAABAE"
+      ]
+    },
+    {
+      "id": "90",
+      "title": "Woman swim suit",
+      "description": "Beautiful woman swim suit",
+      "price": 50,
+      "discountPercentage": 37.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "suit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg"
+      ]
+    },
+    {
+      "id": "91",
+      "title": "Woman swim suit",
+      "description": "Beautiful woman swim suit",
+      "price": 50,
+      "discountPercentage": 37.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "suit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg"
+      ]
+    },
+    {
+      "id": "94",
+      "title": "Swim Suits",
+      "description": "Beautiful woman swim suit",
+      "price": 70,
+      "discountPercentage": 39.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "suit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg"
+      ]
+    },
+    {
+      "id": "95",
+      "title": "Swim Suits",
+      "description": "Beautiful woman swim suit",
+      "price": 70,
+      "discountPercentage": 39.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "suit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg"
+      ]
+    },
+    {
+      "id": "96",
+      "title": "Swim Suits",
+      "description": "Beautiful woman swim suit",
+      "price": 70,
+      "discountPercentage": 39.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "suit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg"
+      ]
+    },
+    {
+      "id": "97",
+      "title": "Swim Suits",
+      "description": "Beautiful woman swim suit",
+      "price": 70,
+      "discountPercentage": 39.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "suit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg",
+        "https://strgimgr.umico.az/sized/840/524109-c5e69036da00151fca3113473650dc50.jpg"
+      ]
+    },
+    {
+      "id": "92",
+      "title": "Woman swim suit",
+      "description": "Beautiful woman swim suit",
+      "price": 50,
+      "discountPercentage": 37.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "suit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg"
+      ]
+    },
+    {
+      "id": "93",
+      "title": "Woman swim suit",
+      "description": "Beautiful woman swim suit",
+      "price": 50,
+      "discountPercentage": 37.45,
+      "sale": true,
+      "rating": 4.82,
+      "stock": 54,
+      "brand": "bershka",
+      "subcategory": "swimsuit",
+      "category": "Woman's Fashion",
+      "thumbnail": "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+      "images": [
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg",
+        "https://strgimgr.umico.az/sized/840/452946-5b05d6b54070037140eb51d9082183ff.jpg"
       ]
     }
-  
-    ]
-  }
+  ]
+}

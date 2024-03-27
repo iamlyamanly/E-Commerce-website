@@ -1,141 +1,221 @@
-.roadmap{
-    margin-top: 79.25px;
-    p{
-    color: rgb(0, 0, 0,0.5);
+.roadmap {
+  margin-top: 79.25px;
+  p {
+    color: rgb(0, 0, 0, 0.5);
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0%;
-    span{
-    color: rgb(0, 0, 0);
+    span {
+      color: rgb(0, 0, 0);
     }
-    }
+  }
 }
-.contactus{
-    display: flex;
-    gap:30px;
-    margin-top: 80px;
+.contactus {
+  display: flex;
+  gap: 30px;
+  margin-top: 80px;
 }
-.contactCard_cont{
-width: 340px;
-height: 457px;
-border-radius: 4px;
-box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
-background: rgb(255, 255, 255);
-padding: 40px 35px;
-
+.contactCard_cont {
+  width: 340px;
+  height: 457px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+  padding: 40px 35px;
 }
-.card_top{
-    margin-top: 31px;
+.card_top {
+  margin-top: 31px;
 }
-.card_head{
-    display: flex;
-    gap:16px;
-    align-items:center;
-    p{
+.card_head {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  p {
     color: rgb(0, 0, 0);
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    }
+  }
 }
-.contact_card_desc{
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    gap:16px;
-    p{
+.contact_card_desc {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  p {
     color: rgb(0, 0, 0);
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    }
-    hr{
-        margin-top: 15px;
-    }
+  }
+  hr {
+    margin-top: 15px;
+  }
 }
-.mesIcon{
-    width: 40px;
-    height: 40px;
-    background: rgb(219, 68, 68);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mesIcon {
+  width: 40px;
+  height: 40px;
+  background: rgb(219, 68, 68);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sendsms{
-    width: 80%;
-    height: 457px;
+.sendsms {
+  width: 80%;
+  height: 457px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+  padding: 31px 40px;
+}
+.sendsms_input {
+  display: flex;
+  gap: 16px;
+  > input {
+    width: 235px;
+    height: 50px;
     border-radius: 4px;
-    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
-    background: rgb(255, 255, 255);
+    background: rgb(245, 245, 245);
+    border: none;
+    padding: 16px 13px;
+  }
+  ::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.sendsms_sms {
+  width: 737px;
+  height: 207px;
+  border-radius: 4px;
+  background: rgb(245, 245, 245);
+  margin-top: 32px;
+  > input {
+    border: none;
+    background: rgb(245, 245, 245);
+    padding: 16px 13px;
+  }
+  ::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  margin-bottom: 32px;
+}
+.sendsms_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
 }
 
 /*About page*/
-.ourStory{
-    display: flex;
-    margin-top: 46.5px;
+.ourStory {
+  display: flex;
+  margin-top: 46.5px;
 }
-.ourStory_text{
-    width: 50%;
-    margin-top: 137px;
+.ourStory_text {
+  width: 50%;
+  margin-top: 137px;
+  color: rgb(0, 0, 0);
+  .ourStory_text_head {
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 6%;
+  }
+  .ourStory_text_desc {
+    margin-top: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+  }
+}
+.ourStory_img {
+  width: 60%;
+  overflow: hidden;
+}
+.activity {
+  margin-top: 140px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+.activity_card {
+  width: 270px;
+  height: 230px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  color: rgb(0, 0, 0);
+  .activity_card_head {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 4%;
+  }
+  .activity_card_desc {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.staff {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 150px;
+  overflow-x: auto;
+    scrollbar-width: none;
+}
+.staff_card_desc {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  .staff_card_desc_name {
     color: rgb(0, 0, 0);
-    .ourStory_text_head{
-
-font-family: Inter;
-font-size: 54px;
-font-weight: 600;
-line-height: 64px;
-letter-spacing: 6%;
-    }
-    .ourStory_text_desc{
-        margin-top: 40px;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-    }
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 4%;
+  }
+  .staff_card_desc_pos {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
 }
-.ourStory_img{
-    width: 50%;
-
+.staff_social {
+  display: flex;
+  gap: 8px;
 }
-.activity{
-    margin-top: 140px;
-    margin-bottom: 140px;
-    display: flex;
-    justify-content: space-around;
-    
+.staff_social > a > img {
+  width: 18px;
+  height: 18px;
 }
-.activity_card{
-    width: 270px;
-    height: 230px;
-    box-sizing: border-box;
-border: 1px solid rgba(0, 0, 0, 0.3);
-border-radius: 4px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items:center;
-gap:24px;
-
-color: rgb(0, 0, 0);
-.activity_card_head{
-font-family: Inter;
-font-size: 32px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 4%;
-}
-.activity_card_desc{
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-}
-
+.sliderBtn{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
 }

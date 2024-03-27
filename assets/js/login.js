@@ -13,9 +13,11 @@ function account(){
     .then((data)=>{
         data.forEach((person)=>{
             if(person.email=== Email.value && person.password===Password.value ){
-                window.location.href="../index.html";
+                window.location.href="./index.html";
+                console.log(person)
+                localStorage.setItem('user',JSON.stringify(person));
             }else{
-                console.log("Please create your account!");
+                window.location.href="404.html"
             }
             
         });

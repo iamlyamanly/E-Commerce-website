@@ -44,6 +44,9 @@
         line-height: 24px;
         letter-spacing: 0%;
       }
+      a:is(:link,:active,:visited).activepage{
+        text-decoration:underline;
+      }
     }
   }
   .page_header_head_logo {
@@ -59,6 +62,59 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      div{
+        position: relative;
+        .search_list{
+          position: absolute;
+          ul{
+            display: none;
+            width: 243px;
+            border: 1px solid rgb(197, 196, 196);
+            background: white;
+            max-height: 400px;
+            overflow-y: auto;
+            li{
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              padding-left: 10px;
+              width: 100%;
+              min-height: 38px;
+              
+              border-bottom: 0.1px solid rgb(222, 222, 222);
+              list-style: none;
+              cursor: pointer;
+            }
+            li:hover{
+              background: #d3d3d3;
+              border-radius: 15px;
+            }
+            li:last-child{
+              border:none;
+            }
+          }
+        }
+      }
+    }
+    .minicircle{
+      width: 6px;
+      height: 6px;
+      background: rgb(219, 68, 68) !important;
+      padding: 10px;
+      align-items:center;
+      justify-content: center;
+      border-radius: 100%;
+     display: flex;
+     color:white;
+      top:-7px;
+      right:-5px;
+      position: absolute;
+      >p{
+        font-size: 12px;
+      }
+    }
+    .page_header_head_other_like{
+      position: relative;
     }
     .page_header_head_other_like > img {
       width: 20px;
@@ -68,7 +124,7 @@
       width: 20px;
       height: 18px;
     }
-    .page-header_head_profile>img{
+    .page-header_head_profile > img {
       width: 20px;
       height: 20px;
     }
@@ -76,7 +132,7 @@
       display: flex;
       gap: 24px;
       position: relative;
-  
+
       padding: 7px 12px 7px 20px;
       width: 243px;
       border-radius: 4px;
@@ -84,7 +140,7 @@
       background: rgb(245, 245, 245);
       align-items: center;
       justify-content: flex-start;
-  
+
       .search_input {
         background: rgb(245, 245, 245);
         height: 24px;
@@ -95,6 +151,10 @@
       .search_icon {
         display: flex;
         justify-content: center;
+        >img{
+          width: 16px;
+          height: 16px;
+        }
       }
       .search_input:-ms-input-placeholder {
         color: var(--colorGray);
@@ -104,7 +164,7 @@
         line-height: 20px;
       }
     }
-  
+
     .page_header_head_other_icons {
       display: flex;
       margin-left: 24px;
@@ -113,4 +173,8 @@
       height: 100%;
     }
   }
+}
+.searchproductdetail{
+  text-decoration: none;
+  color:black;
 }

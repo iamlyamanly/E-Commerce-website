@@ -16,40 +16,46 @@
           <p class="page_header_sale_desc">
             Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
           </p>
-          <a href="#" class="page_header_sale_link">ShopNow!</a>
+          <a href="summerSale.html" class="page_header_sale_link">ShopNow!</a>
         </div>
         <div class="page_header_head container">
           <p class="page_header_head_logo">Exclusive</p>
   
           <div class="page_header_head_navbar">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Sign Up</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="signUp.html">Sign Up</a></li>
             </ul>
           </div>
           <div class="page_header_head_other">
             <form>
-              <div class="page_header_head_search">
-                <input
-                  type="text"
-                  class="search_input"
-                  placeholder="What are you looking for…"
-                />
-                <div class="search_icon">
-                  <img src="assets/images/Component 2.png" />
+              <div>
+                <div class="page_header_head_search">
+                  <input
+                    type="text"
+                    class="search_input"
+                    placeholder="What are you looking for…"
+                  />
+                  <div class="search_icon">
+                    <img src="assets/images/search-interface-symbol.png" />
+                  </div>
+                </div>
+                <div class="search_list">
+                  <ul>
+                    
+                  </ul>
                 </div>
               </div>
               <div class="page_header_head_other_icons">
-                <div class="page_header_head_other_like">
-                  <img src="assets/images/heart.png" />
+                <div class="page_header_head_other_like header_icon">
+                  <div class="minicircle"><p class="likecircle">1</p></div>
+                  <img src="assets/images/heart.png" class="wishlistImg"/>
                 </div>
-                <div class="page_header_head_other_cart">
-                  <img src="assets/images/cart.png" />
-                </div>
-                <div class="page-header_head_profile">
-                  <img src="assets/images/user.png">
+                <div class="page_header_head_other_cart header_icon">
+                  <div class="minicircle"><p class="cartcircle">1</p></div>
+                  <img src="assets/images/cart.png" class="cartImg" />
                 </div>
               </div>
             </form>
@@ -89,15 +95,15 @@
                   <input name="Lname" type="text" >
                 </form>
               </div>
-              <div class="acc_manage_first_cont">
+              <div class="acc_manage_first_cont second">
 
                 <form>
-                  <p>First Name</p>
-                  <input name="name" type="text" >
+                  <p>Email</p>
+                  <input name="email" type="text" >
                 </form>
                 <form>
-                  <p>Last Name</p>
-                  <input name="Lname" type="text" >
+                  <p>Address</p>
+                  <input name="address" type="text" >
                 </form>
               </div>
 
@@ -105,17 +111,21 @@
              <div class="acc_manage_two">
               <p>Password Changes</p>
               <form>
-                <input type="text" name="crpassword"/>
-                <input type="text" name="newpassword"/>
-                <input type="text" name="cnpassword"/>
+                <input type="text" name="crpassword" placeholder="Current Password"/>
+                <input type="text" name="newpassword" placeholder="New Password"/>
+                <input type="text" name="cnpassword" placeholder="Confirm New Password"/>
               </form>
              </div>
-             <button>Cancel</button>
-             <button>Save Changes</button>
+             <div class="saveorcancell">
+              <a class="cancel">Cancel</a>
+             <button class="all_products saveChangesbtn">Save Changes</button>
+             </div>
+             
             </div>
           </section>
       </main>
-      <footer class="page_footer container">
+      <footer>
+        <div class="page_footer container">
         <div class="page_footer_cont">
           <p class="page_footer_logo">Exclusive</p>
           <p class="page_footer_head">Subscribe</p>
@@ -134,19 +144,45 @@
         </div>
         <div class="page_footer_cont">
           <p class="page_footer_head">Account</p>
-          <a href="#" class="page_footer_link">My Account</a>
-          <a href="#" class="page_footer_link">Login/Register</a>
-          <a href="#" class="page_footer_link">Cart</a>
-          <a href="#" class="page_footer_link">WishList</a>
-          <a href="#" class="page_footer_link">Shop</a>
+          <a href="myAccount.html" class="page_footer_link">My Account</a>
+          <a href="signUp.html" class="page_footer_link">Login/Register</a>
+          <a href="cart.html" class="page_footer_link">Cart</a>
+          <a href="wishlist.html" class="page_footer_link">WishList</a>
+          <a href="index.html" class="page_footer_link">Shop</a>
         </div>
         <div class="page_footer_cont">
           <p class="page_footer_head">Quick Link</p>
           <a href="#" class="page_footer_link">Privacy Policy</a>
           <a href="#" class="page_footer_link">Terms Of Use</a>
           <a href="#" class="page_footer_link">FAQ</a>
-          <a href="#" class="page_footer_link">Contact</a>
+          <a href="contact.html" class="page_footer_link">Contact</a>
         </div>
+        <div class="page_footer_cont">
+          <p class="page_footer_head">Download App</p>
+          <p href="#" class="page_footer_save">Save $3 with App New User Only</p>
+          <div class="downlooad_app">
+            <div><img src="assets/images/Qrcode 1.png"></div>
+            <div class="appandplay">
+              <div class="playStore"><img src="assets/images/GooglePlay.png"/></div>
+              <div class="appStore"><img src="assets/images/AppStore.png"/></div>
+            </div>
+  
+          </div>
+          <div class="social">
+            <img src="assets/images/Icon-Facebook.png">
+            <img src="assets/images/Icon-Twitter.png">
+            <img src="assets/images/icon-instagram.png">
+            <img src="assets/images/Icon-Linkedin.png">
+          </div>
+  
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <p>&copy; <span>Copyright Rimel 2022. All right reserved</span></p>
+      </div>
       </footer>
+      <script src="assets/js/header.js"></script>
+      <script src="assets/js/accaunt.js"></script>
 </body>
 </html>

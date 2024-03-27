@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/checkout.css" />
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <title>CheckOut</title>
+  </head>
+  <body>
+    <header class="page_header">
+      <div class="page_header_sale">
+        <p class="page_header_sale_desc">
+          Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+        </p>
+        <a href="summerSale.html" class="page_header_sale_link">ShopNow!</a>
+      </div>
+      <div class="page_header_head container">
+        <p class="page_header_head_logo">Exclusive</p>
+
+        <div class="page_header_head_navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="signUp.html">Sign Up</a></li>
+          
+          </ul>
+        </div>
+        <div class="page_header_head_other">
+          <form>
+            <div class="page_header_head_search">
+              <input
+                type="text"
+                class="search_input"
+                placeholder="What are you looking for…"
+              />
+              <div class="search_icon">
+                <img src="assets/images/search-interface-symbol.png" />
+              </div>
+              <div class="search_list">
+                <ul></ul>
+              </div>
+            </div>
+            <div class="page_header_head_other_icons">
+              <div class="page_header_head_other_like header_icon">
+                <div class="minicircle"><p class="likecircle">1</p></div>
+                <img src="assets/images/heart.png"  class="wishlistImg"/>
+              </div>
+              <div class="page_header_head_other_cart header_icon">
+                <div class="minicircle"><p class="cartcircle">1</p></div>
+                <img src="assets/images/cart.png" class="cartImg" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <hr />
+    </header>
+    <main>
+      <section class="container">
+        <p class="CheckOut_head">Billing Details</p>
+        <div class="CheckOut">
+          <div class="billing_details">
+            <form>
+              <div>
+                <p>First Name<span style="color: red">*</span></p>
+                <input type="text" name="name" />
+              </div>
+              <div>
+                <p>Company Name</p>
+                <input type="text" name="name" />
+              </div>
+              <div>
+                <p>Street Address<span style="color: red">*</span></p>
+                <input type="text" name="name" />
+              </div>
+              <div>
+                <p>Apartment,floor and etc(optional)</p>
+                <input type="text" name="name" />
+              </div>
+              <div>
+                <p>Town/City<span style="color: red">*</span></p>
+                <input type="text" name="name" />
+              </div>
+              <div>
+                <p>Phone Number<span style="color: red">*</span></p>
+                <input type="text" name="name" />
+              </div>
+              <div>
+                <p>Email Addres<span style="color: red">*</span></p>
+                <input type="text" name="name" />
+              </div>
+            </form>
+            <div class="checkoutFaster">
+              <input type="checkbox" name="check" class="checkbox" />
+              <p class="forfaster">
+                Save this information for faster check-out next time
+              </p>
+            </div>
+          </div>
+          <div class="order">
+            <div class="ordercard_container">
+              <div class="ordercard">
+                <div class="oneProduct">
+                  <img src="assets/images/g92-2-500x500 1.png" />
+                  <p>LCD Monitor</p>
+                </div>
+
+                <div class="onePrice"><p>1100$</p></div>
+              </div>
+            </div>
+         <div class="otherdetails_cont"> 
+          <div class="otherdetails">
+          <p >Subtotal:</p>
+          <p class="SubtotalPr">1170$</p>
+        </div>
+        <hr />
+        <div class="otherdetails">
+          <p>Shipping:</p>
+          <p>Free</p>
+        </div>
+        <hr />
+        <div class="otherdetails">
+          <p>Total:</p>
+          <p class="SubtotalPr">1170$</p>
+        </div>
+      </div>
+           
+            <div class="pay">
+              <form>
+                <div class="Bank">
+                  <div class="bank_check"><input type="radio" name="cash" />
+                    <p>Bank</p></div>
+                  
+                  <div class="bank_icon">
+                    <img src="assets/images/image 33.png" />
+                    <img src="assets/images/image 32.png" />
+                    <img src="assets/images/image 31.png" />
+                    <img src="assets/images/image 30.png" />
+                  </div>
+                </div>
+                <div class="check_free"> <input type="radio" name="cash" />
+                  <p>Cash on delivery</p></div>
+               
+              </form>
+              <div class="cart_coupon">
+                <form>
+                  <input
+                    type="text"
+                    class="cart_coupon_input"
+                    placeholder="Coupon Code"
+                  />
+                  <button class="all_products">Apply Coupon</button>
+                </form>
+              </div>
+              <button class="all_products PlaceOrder">Place Order</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="page_footer container">
+        <div class="page_footer_cont">
+          <p class="page_footer_logo">Exclusive</p>
+          <p class="page_footer_head">Subscribe</p>
+          <p class="page_footer_item">Get 10% off your first order</p>
+          <form>
+            <input type="text" placeholder="Enter your email" />
+          </form>
+        </div>
+        <div class="page_footer_cont">
+          <p class="page_footer_head">Support</p>
+          <p class="page_footer_item">
+            111 Bijoy sarani, Dhaka, DH 1515, Bangladesh
+          </p>
+          <p class="page_footer_item">exclusive@gmail.com</p>
+          <p class="page_footer_item">+88015-88888-9999</p>
+        </div>
+        <div class="page_footer_cont">
+          <p class="page_footer_head">Account</p>
+          <a href="myAccount.html" class="page_footer_link">My Account</a>
+          <a href="signUp.html" class="page_footer_link">Login/Register</a>
+          <a href="cart.html" class="page_footer_link">Cart</a>
+          <a href="wishlist.html" class="page_footer_link">WishList</a>
+          <a href="index.html" class="page_footer_link">Shop</a>
+        </div>
+        <div class="page_footer_cont">
+          <p class="page_footer_head">Quick Link</p>
+          <a href="#" class="page_footer_link">Privacy Policy</a>
+          <a href="#" class="page_footer_link">Terms Of Use</a>
+          <a href="#" class="page_footer_link">FAQ</a>
+          <a href="contact.html" class="page_footer_link">Contact</a>
+        </div>
+        <div class="page_footer_cont">
+          <p class="page_footer_head">Download App</p>
+          <p href="#" class="page_footer_save">
+            Save $3 with App New User Only
+          </p>
+          <div class="downlooad_app">
+            <div><img src="assets/images/Qrcode 1.png" /></div>
+            <div class="appandplay">
+              <div class="playStore">
+                <img src="assets/images/GooglePlay.png" />
+              </div>
+              <div class="appStore">
+                <img src="assets/images/AppStore.png" />
+              </div>
+            </div>
+          </div>
+          <div class="social">
+            <img src="assets/images/Icon-Facebook.png" />
+            <img src="assets/images/Icon-Twitter.png" />
+            <img src="assets/images/icon-instagram.png" />
+            <img src="assets/images/Icon-Linkedin.png" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright">
+        <p>&copy; <span>Copyright Rimel 2022. All right reserved</span></p>
+      </div>
+    </footer>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/cart.js"></script>
+  </body>
+</html>
