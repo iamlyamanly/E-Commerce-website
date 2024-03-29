@@ -76,15 +76,17 @@
         67,
         7,
         31,
-        5,
-        91
+        91,
+        75
       ],
       "addcart": [
         40,
         5,
         7,
         94,
-        2
+        2,
+        3,
+        75
       ]
     },
     {
@@ -101,6 +103,16 @@
       "name": "Phones",
       "icon": "assets/images/smartphone.png",
       "id": "0757"
+    },
+    {
+      "name": "Computers",
+      "icon": "assets/images/monitor.png",
+      "id": "9ae1"
+    },
+    {
+      "name": "Computers",
+      "icon": "assets/images/monitor.png",
+      "id": "9ae1"
     },
     {
       "name": "Computers",

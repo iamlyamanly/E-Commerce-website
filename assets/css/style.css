@@ -191,10 +191,11 @@
   display: flex;
   gap: 30px;
   margin-bottom: 70.25px;
-  overflow-x: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 .category_cards {
-  width: 170px;
+  min-width: 170px;
   height: 145px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
@@ -233,6 +234,7 @@
 }
 .collection_cont {
   overflow-x: hidden;
+  gap:60px;
   flex-wrap: wrap;
   
 }

@@ -8,7 +8,16 @@ const featureContainer = document.querySelector(".featured_elements");
 const menu = document.querySelectorAll(".menu_list_item");
 const collection = document.querySelector(".collection_cont");
 
-const { addcart, liked, id } = JSON.parse(localStorage.getItem("user"));
+let addcart = [];
+let liked = [];
+let id;
+const user = JSON.parse(localStorage.getItem("user"))
+
+if(user){
+    addcart = user.addcart;
+    liked = user.liked;
+    id = user.id;
+}
 const likes = liked;
 const cartItems = addcart;
 //console.log(cartItems);
@@ -67,7 +76,7 @@ const like = (id) => {
 //Axtarish
 
 const initSlider = () => {
-  const slideButtons = document.querySelectorAll(".slideBtn");
+  const slideButtons = document.querySelectorAll(".today .slideBtn");
 
   slideButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -80,7 +89,7 @@ const initSlider = () => {
   });
 };
 const otherslider = () => {
-  const slideButtons = document.querySelectorAll(".slideBtn");
+  const slideButtons = document.querySelectorAll(".our_products .slideBtn");
 
   slideButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -93,10 +102,11 @@ const otherslider = () => {
   });
 };
 const categorySlider = () => {
-  const slideButtons = document.querySelectorAll(".slideBtn");
+  const slideButtons = document.querySelectorAll(".browse_categories .slideBtn");
 
   slideButtons.forEach((button) => {
     button.addEventListener("click", () => {
+      console.log("asdasdas");
       const direction = button.id === "prev-slide" ? -1 : 1;
       //console.log(categoryList.clientWidth);
       const scrollAmount = categoryList.clientWidth * direction;

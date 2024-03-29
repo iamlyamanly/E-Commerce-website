@@ -17,7 +17,7 @@ function account(){
                 console.log(person)
                 localStorage.setItem('user',JSON.stringify(person));
             }else{
-                window.location.href="404.html"
+                console.log("Error");
             }
             
         });

@@ -16,13 +16,13 @@ wishlistImg.addEventListener("click",()=>{
 
 //console.log(activePage);
 
-const totallike=User.liked.length;
-const totalcart=User.addcart.length;
-likecircle.textContent=totallike;
-cartcircle.textContent=totalcart;
 
 if (User) {
 
+  const totallike=User.liked.length;
+  const totalcart=User.addcart.length;
+  likecircle.textContent=totallike;
+  cartcircle.textContent=totalcart;
   const child = document.createElement('div');
   child.classList = 'page-header_head_profile header_icon';
   child.innerHTML = '  <img src="assets/images/user.png">  ';
